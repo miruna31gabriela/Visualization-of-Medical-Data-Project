@@ -18,6 +18,18 @@ The tool enables exploratory analysis and clinical interpretation by providing:
 Python 3.8.0 was used for this project. The packages that are need can be installed as follows:
 
 ```bash
-pip install 
+pip install os
+pip install pathlib
+pip install typing
+pip install vtk
+pip install pydicom
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install tkinter
+pip install logging
+```
+Requirements for pyradiomics -> pip install pyradiomics
+
 
 
