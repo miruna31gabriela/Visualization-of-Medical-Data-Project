@@ -15,7 +15,9 @@ The tool enables exploratory analysis and clinical interpretation by providing:
 
 
 ## Installation / Requirements
-Install Python packages using:
+Python 3.8.0 was used for this project. The packages that are need can be installed as follows:
 
 ```bash
-pip install -r requirements.txt
+pip install 
+
+
