@@ -37,17 +37,21 @@ pip install logging
 pip install pyradiomics
 ```
 
-For pyradiomics the installation process is the same, but an error may be raised. If that error appears, do the following:
-- Download from this repository the *.whl file;
-- In the command prompt, write ```bash pip install path_of_file```;
-- run ```bash pip install pyradiomics``` again and it should work.
+For `pyradiomics` the installation process is the same, but an error may be raised.
 
+**NOTE**: This error originates from a subprocess, and is likely not a problem with `pip`. 
+```bash
+ERROR: Failed building wheel for SimpleITK Failed to build SimpleITK
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (SimpleITK)
+```
+
+If that error appears, do the following:
+- Download from this repository the *.whl file;
+- In the command prompt, write `pip install path_of_file # file path name`;
+- run `pip install pyradiomics` again and it should work.
 
 ## How to run
-
-
-## Features 
-
+After installing all the packages, select the previously created virtual environment in the editor of your choosing. 
 
 
 ## References
