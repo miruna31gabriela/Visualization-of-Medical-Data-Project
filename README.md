@@ -1,5 +1,5 @@
 # Radiomic Visual Representation Tool for Breast Tumors​
-> Authors: Miruna Vasile & Andreea Pavel
+> Authors: Miruna Vasile (TU Wien, e12442832) & Andreea Pavel (TU Wien, e12450451)
 
 > Credits: Data source from The Cancer Institute Archive [NH16]; 
 
