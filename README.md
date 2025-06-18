@@ -24,15 +24,12 @@ py -3.8 -m venv name_env # name of environment
 name_env\Scripts\activate
 python -m pip install --upgrade pip
 
-pip install os
 pip install pathlib
 pip install typing
 pip install vtk
 pip install pydicom
-pip install numpy
-pip install matplotlib
 pip install pandas
-pip install tkinter
+pip install tk
 pip install logging
 pip install pyradiomics
 ```
@@ -45,10 +42,10 @@ ERROR: Failed building wheel for SimpleITK Failed to build SimpleITK
 ERROR: Failed to build installable wheels for some pyproject.toml based projects (SimpleITK)
 ```
 
-If that error appears, do the following:
-- Download from this repository the *.whl file;
-- In the command prompt, write `pip install path_of_file # file path name`;
-- run `pip install pyradiomics` again and it should work.
+If that error appears, do the following steps:
+- Download from this repository the *.whl file; This file was obtained from [https://github.com/SimpleITK/SimpleITK/releases/tag/v2.1.1](https://github.com/SimpleITK/SimpleITK/releases/tag/v2.1.1). **NOTE**: the *.whl file we provided works for Windows; if you need the file for Linux or MacOS, they can be found in the provided GitHub repository.
+- In the command prompt, write `pip install path_of_file # file path name`
+- run `pip install pyradiomics` again
 
 ## How to run
 After installing all the packages, select the previously created virtual environment in the editor of your choosing. 
